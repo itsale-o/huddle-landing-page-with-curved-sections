@@ -43,8 +43,8 @@ The solution for mobile devices
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution on Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-solution-bpHVZTJj1m))
+- Live Site URL: [Live site]([https://your-live-site-url.com](https://itsale-o.github.io/huddle-landing-page-with-curved-sections/))
 
 ## My process
 
