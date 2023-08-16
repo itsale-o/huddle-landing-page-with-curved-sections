@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Huddle Landing Page With Curved Sections</title>
+</head>
+<body>
+  <main>
+    <div id="navbar">
+      <img src="images/logo.svg" alt="">
+      <button class="btn white-btn">Try it free</button>
+    </div>
+    <div id="header">
+      <div id="title-btn">
+        <h1 class="heading">Build The Community Your Fans Will Love</h1>
+        <p class="body">
+          Huddle re-imagines the way we build communities. You have a voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion. 
+        </p>
+        <button class="btn pink-btn">Get Started For Free</button>
+      </div>
+      <div id="header-img">
+        <img src="images/screen-mockups.svg" alt="">
+      </div>
+    </div>
+    <div id="numbers-info">
+      <div id="numbers1" class="numbers">
+        <img src="images/icon-communities.svg" alt="">
+        <p class="p1">1.4k+</p>
+        <p class="p2">Communities Formed</p>
+      </div>
+      <div id="numbers2" class="numbers">
+        <img src="images/icon-messages.svg" alt="">
+        <p class="p1">2.7m+</p>
+        <p class="p2">Messages Sent</p>
+      </div>
+    </div>
+    <div id="section1-top-bg"></div>
+    <div class="section section-bg-color" id="section1">
+      <div class="sec-txt">
+        <p class="heading p1">Grow Together</p>
+        <p class="body p2">
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form.
+        </p>
+      </div>
+      <div class="sec-img">
+        <img src="images/illustration-grow-together.svg" alt="">
+      </div>
+    </div>
+    <div id="section1-bottom-bg"></div>
+    <div class="section-reverse" id="section2">
+      <div class="sec-txt">
+        <p class="heading p1">Flowing Conversations</p>
+        <p class="body p2">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+          just-in-time loading for a more natural flow.
+        </p>
+      </div>
+      <div class="sec-img">
+        <img src="images/illustration-flowing-conversation.svg" alt="">
+      </div>
+    </div>
+    <div id="section3-top-bg"></div>
+    <div class="section section-bg-color" id="section3">
+      <div class="sec-txt">
+        <p class="heading p1">Your Users</p>
+        <p class="body p2">
+          It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
+      <div class="sec-img">
+        <img src="images/illustration-your-users.svg" alt="">
+      </div>
+    </div>
+    <div id="section3-bottom-bg"></div>
+    <div id="section4">
+      <p class="heading">Ready To Build Your Community?</p>
+      <button class="btn pink-btn">Get Started For Free</button>
+    </div>
+    <div id="section5-top-bg"></div>
+    <div id="section5">
+      <div id="sec5-content">
+        <div id="contact-info">
+          <div id="sec5-logo">
+            <img src="images/white-logo.svg" alt="">
+          </div>
+          <div id="adress" class="info">
+            <p class="body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+              vestibulum a, ultrices quis sem.
+            </p>
+          </div>
+          <div id="phone" class="info">
+            <img src="images/icon-phone.svg" alt="">
+            <p class="body">Phone: +1-543-123-4567</p>
+          </div>
+          <div id="email" class="info">
+            <img src="images/icon-email.svg" alt="">
+            <p class="body">example@huddle.com</p>
+          </div>
+          <div id="social-media">
+            <div id="facebook" role="img" aria-label="Facebook Icon">
+              <ion-icon name="logo-facebook" aria-labelledby="facebook"></ion-icon>
+            </div>  
+            <div id="instagram" role="img" aria-label="Instagram Icon">
+              <ion-icon name="logo-instagram" aria-labelledby="instagram"></ion-icon>
+            </div>
+            <div id="twitter" role="img" aria-label="Twitter Icon">
+              <ion-icon name="logo-twitter" aria-labelledby="twitter"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div id="newsletter">
+          <p class="body p1">NEWSLETTER</p>
+          <p class="body p2">
+            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            send you spam or pass on your email address
+          </p>
+          <div id="input-button">  
+            <form id="form">
+              <input id="input" type="email" name="email" required oninput="emailValidate()">              
+              <button class="squared-btn">Subscribe</button>
+              <span id="span-error" class="span-error">Check your email please</span>
+            </form>                      
+          </div>
+        </div>
+      </div>  
+    </div>  
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/itsale-o">Alessandra Oliveira</a>.
+    </p>
+  </footer>
+</body>
+<script src="validation.js"></script>
+</html>
